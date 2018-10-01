@@ -9,29 +9,44 @@
   <meta name="author" content="Sexplanations">
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Satisfy|Sriracha" rel="stylesheet">
 
+  <style>
+    @media only screen and (max-width: 600px) {
+    body {
+      padding: 0 !important;
+    }
+    .float {
+        width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    } }
+  </style>
+
 </head>
 
-<body style="font-family: 'Montserrat', sans-serif; padding: 2rem;">
+<body style="font-family: 'Montserrat', sans-serif;padding: 2rem;box-sizing: border-box !important;">
   <div style="text-align: center;">
     <h1 style="font-family: 'Satisfy', cursive; color:#E43F65;">Welcome to Sexplanations.com!</h1>
     <p>We've got some cool things in the works. Click the buttons below to learn either about our YouTube site or our upcoming Road Trip!</p>
     <hr>
 </div>
-  <div style="width:95%; float: auto;"> <!-- -->
-    <div style="width:47.5%; height:100%; float:left;">
+  <div style="width:95%;display: flex;flex-direction: row;flex-wrap: wrap;align-items: baseline;justify-content: center;float: auto;"> <!-- -->
+    <div class="float" style="width: 22em;padding: 2rem;margin: 1em;text-align: center;border: 1px solid #EEE;border-radius: 2em;">
         <h2>Sexplanations Road Tour</h2>
-        <p style="margin-bottom: 40px;">
+        <p style="margin-bottom: 40px;text-align: left;min-height: 4ex;">
             Learn about and Donate to our upcoming Sex Ed Road Tour
         </p>
-        <a href="http://roadtour.sexplanations.com" style="padding: 1.5rem; background-color:#E43F65; color:white; font-family:'Sriracha', cursive; width: 100%; text-decoration:none; margin-top:1rem;" >To the Road Tour</a>
+        <p style="padding-bottom: 1rem;"><a href="http://roadtour.sexplanations.com" style="padding: 1.5rem;background-color:#E43F65;color:white;font-family:'Sriracha', cursive;width: 100%;text-decoration:none; margin: 1.5rem;">To the Road Tour</a></p>
+
         </div>
-    <div style="width:47.5%; height:100%; float:right;">
+    <div class="float" style="width: 22em;margin: 1em;padding: 2rem;text-align: center;border: 1px solid #EEE;border-radius: 2em;">
         <h2>Sexplanations on YouTube</h2>
-        <p style="margin-bottom: 40px;"> 
+        <p style="margin-bottom: 40px;min-height: 4ex;text-align: left;">
             Learn about Sexplanations and what we do.
         </p>
-        <a href="http://complexly.com/shows/sexplanations" style="padding: 1.5rem; background-color:#E43F65; color:white; font-family:'Sriracha', cursive; width: 100%; text-decoration:none; margin-top:1rem;" >To the YouTube</a>
+        <p style="padding-bottom: 1rem;"><a href="http://complexly.com/shows/sexplanations" style="padding: 1.5rem;background-color:#E43F65;color:white;font-family:'Sriracha', cursive;width: 100%;text-decoration:none; margin: 1.5rem;">To the YouTube</a></p>
+
     </div>
   </div>
+
 </body>
 </html>
